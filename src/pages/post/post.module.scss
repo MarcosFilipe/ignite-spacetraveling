@@ -1,1 +1,48 @@
-// TODO
+.banner {
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--heading);
+  margin-top: 5rem;
+}
+
+.info {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: var(--info);
+  margin: 1.5rem 0;
+
+  .flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.content {
+  .heading {
+    line-height: 7rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--heading);
+  }
+
+  .body {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+
+    p, ol, li {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
